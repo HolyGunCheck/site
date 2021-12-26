@@ -1,0 +1,283 @@
+.background{
+position: absolute;
+width: 3384px;
+height: 4375px;
+
+background: url(background.jpg);
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.sam{
+	position: absolute;
+width: 754px;
+height: 955px;
+left: calc(50% - 754px/2);
+top: 53px;
+
+background: url(sam.png);
+}
+
+.sam-says{	
+position: absolute;
+width: 1421px;
+height: 193px;
+left: calc(50% - 1421px/2 - 0.5px);
+top: 1037px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 112px;
+text-align: center;
+
+color: #DD1515;
+
+border: 0px solid #000000;
+backdrop-filter: blur(4px);
+}
+
+.posil{
+	position: absolute;
+width: 1239px;
+height: 798px;
+left: calc(50% - 1421px/2 - 0.5px);
+top: 1355px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color: #472525;
+}
+
+.baner-dgu{
+	position: fixed;
+width: 200px;
+height: 200px;
+left: calc(50% - 1421px/2 - 0.5px);
+top: 700px;
+
+background: url(dgu.png);
+}
+
+/* Начало блока FAQ */
+.block1{
+	position: absolute;
+width: 393px;
+height: 159px;
+left: calc(50% - 1421px/2 - 0.5px);
+top: 2748px;
+
+background: #A88F6A;
+border: 7px solid #97805E;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 59px;
+} 
+.FAQ1{position: absolute;
+width: 389.75px;
+height: 166.56px;
+left: calc(50% - 1421px/2 - 0.5px);
+top: 2751px;
+
+color: #961818;
+font-family: Roboto;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: 84px;
+letter-spacing: 0em;
+text-align: center;
+}
+.FAQ2{position: absolute;
+width: 389.75px;
+height: 166.56px;
+left: calc(50% - 1421px/2 - 0.5px);
+top: 2820px;
+
+
+color: #961818;
+font-family: Roboto;
+font-size: 33px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+}
+.FAQ3{position: absolute;
+width: 389.75px;
+height: 166.56px;
+left: calc(50% - 1421px/2 - 0.5px);
+top: 2840px;
+
+color: #961818;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+}
+/* Конец блока FAQ */
+
+/* Начало блока "Гайды"*/
+.block2{
+	position: absolute;
+width: 393px;
+height: 159px;
+left: calc(50% - 485px/2 - 0.5px);
+top: 2748px;
+
+background: #A88F6A;
+border: 7px solid #97805E;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 59px;
+}
+ .guide1{position: absolute;
+width: 389.75px;
+height: 152.52px;
+left: calc(50% - 485px/2 - 0.5px);
+top: 2745px;
+
+color: #961818;
+
+ 	font-family: Roboto;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: 84px;
+letter-spacing: 0em;
+text-align: center;
+ }
+ .guide2{position: absolute;
+width: 389.75px;
+height: 152.52px;
+left: calc(50% - 485px/2 - 0.5px);
+top: 2815px;
+
+color: #961818;
+
+font-family: Roboto;
+font-size: 38px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+ }
+ .guide3{position: absolute;
+width: 389.75px;
+height: 152.52px;
+left: calc(50% - 485px/2 - 0.5px);
+top: 2835px;
+
+color: #961818;
+
+font-family: Roboto;
+font-size: 43px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+ }
+ /* Конец блока "Гайды"*/
+
+ /* Начало блока "Комментарии"*/
+ .block3{
+ 	position: absolute;
+width: 393px;
+height: 159px;
+left: calc(50% - -450px/2 - 0.5px);
+top: 2748px;
+
+background: #A88F6A;
+border: 7px solid #97805E;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 59px;
+ }
+ .com1{position: absolute;
+ 	width: 389.75px;
+height: 152.52px;
+left: calc(50% - -450px/2 - 0.5px);
+top: 2750px;
+color: #961818;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+}
+.com2{position: absolute;
+width: 389.75px;
+height: 152.52px;
+left: calc(50% - -450px/2 - 0.5px);
+top: 2790px;
+color: #961818;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+}
+.com3{position: absolute;
+width: 389.75px;
+height: 152.52px;
+left: calc(50% - -450px/2 - 0.5px);
+top: 2830px;
+color: #961818;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+}
+.com4{position: absolute;
+width: 389.75px;
+height: 152.52px;
+left: calc(50% - -450px/2 - 0.5px);
+top: 2850px;
+color: #961818;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+}
+/* Конец блока "Комментарии" */
+.works{
+	position: absolute;
+width: 1421px;
+height: 193px;
+left: calc(50% - 1450px/2 - 0.5px);
+font-family: Roboto;
+font-style: italic;
+font-weight: 300;
+font-size: 96px;
+line-height: 112px;
+text-align: center;
+
+color: #e5be01;
+
+border: 5px solid #e5be01;
+backdrop-filter: blur(4px);
+}
+.workers{
+	 background: url(workers.gif) no-repeat center center fixed;
+        background-size: cover;
+}
